@@ -1,0 +1,22 @@
+{
+  "name": "imagereader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "imagereader": "index.js"
+  },
+  "author": "Cristiano Althoff",
+  "license": "ISC",
+  "description": "Read image text",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^2.20.0",
+    "fs": "0.0.1-security",
+    "optimist": "^0.6.1",
+    "path": "^0.12.7"
+  }
+}
