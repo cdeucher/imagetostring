@@ -1,5 +1,5 @@
 {
-  "name": "imagereader",
+  "name": "imagetostring",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,11 +7,15 @@
   },
   "preferGlobal": true,
   "bin": {
-    "imagereader": "index.js"
+    "imagetostring": "index.js"
   },
   "author": "Cristiano Althoff",
   "license": "ISC",
   "description": "Read image text",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanface/imagetostring.git"
+  },  
   "dependencies": {
     "child_process": "^1.0.2",
     "commander": "^2.20.0",
